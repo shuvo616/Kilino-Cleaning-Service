@@ -22,7 +22,7 @@ const AddAdmin = () => {
         formData.append('file', file);
         formData.append('email', info.email);
 
-        fetch('http://localhost:5000/addAdmin', {
+        fetch('https://blooming-springs-70688.herokuapp.com/addAdmin', {
             method: 'POST',
             body: formData
         })
